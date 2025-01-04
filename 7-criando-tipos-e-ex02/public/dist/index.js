@@ -1,8 +1,8 @@
-// Tipo literal
+/* // Tipo literal
 let literal: "Hello"
 let pi: 3.14159
 
-literal = 'Hello' 
+literal = 'Hello'
 //literal = 'h1'  [ERROR]
 
 const test = 5 // Por padrão, toda const é considerada um literal pois seu valor não pode ser reatribuído.
@@ -38,4 +38,4 @@ type GreetingCallback = (name: string) => void
 function greet(callbackfn: GreetingCallback) {
     const name = 'Gabriel'
     callbackfn(name)
-}
+} */ 
