@@ -5,9 +5,9 @@ const planets = []
 type Situation = "inhabited" | "habitable" | "uninhabitable" | "unexplored"
 type Coordinate = [number, number, number, number]
 type Planet = {
-    name: string,
-    coordinate: [number, number, number, number],
-    situation: Situation,
+    name: string
+    coordinate: [number, number, number, number]
+    situation: Situation
     satellites: string[]
 }
 
@@ -346,3 +346,6 @@ function goToMenu() {
 }
 
 menu()
+
+
+  
