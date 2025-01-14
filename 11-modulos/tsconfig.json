@@ -1,0 +1,7 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "target": "ESNext",
+        "allowSyntheticDefaultImports": true
+    }
+}
